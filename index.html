@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8">
+    <title>Etch A Sketch!</title>
+  </head>
+
+  <body>
+    
+    <h1>Etch A Sketch!</h1>
+    <button id="set-grid-button">
+      Set grid
+    </button>
+    <p>
+      <label for="background-colour">Background colour:<label>
+      <input type="color" id="background-colour">
+      <p>
+        <label for="border-colour">Border colour:<label>
+        <input type="color" id="border-colour">
+      </p>
+
+      <p>
+        <label for="paint-colour">Paint Colour:<label>
+        <input type="color" id="paint-colour">
+        <label for="alpha-slider">Paint Alpha:</label>
+        <input type="range" id="alpha-slider" min="0" max="1" step="0.01" value="1">
+        <label id="alpha-slider-value"><label>
+      </p>
+    </p>
+
+    <div class="grid-container">
+
+    </div>
+  </body>
+  <script src="index.js"></script>></script>
+</html>
